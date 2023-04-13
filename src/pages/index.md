@@ -1,62 +1,89 @@
 ---
-title: Richard Hendriks - Resume
-description: Resume about Richard Hendriks, CEO of Pied Piper.
+title: Yang Shouzhi - Resume
+description: Resume about Yang Shouzhi.
 layout: ../layouts/Minimalist.astro
-pdfLink: resume.pdf
+pdfLink: 
 ---
 
-# Richard Hendriks
+# 杨守志
 
-**Programmer**
+### 联系方式
 
-San Francisco, USA | richard.hendriks@gmail.com | http://richardhendricks.com
+**邮箱：ni9ht.top@gmail.com** | **GitHub：[**yni9ht**](https://github.com/yni9ht)** 
 
-Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!
+### 基本信息
 
-## Work Experience
+- 男  1996年
+- 本科 - 软件工程
+- 求职意向：Go 开发工程师、云原生开发工程师
+- 目前状态：深圳，离职随时到岗
+- 技术栈：Go、Vue、K8s、NodeJS
 
-### [Google](https://www.google.com/)
+### 教育信息
 
-#### Senior Software Engineer | Oct 2022 - Current
+- **本科，软件工程，大连东软信息学院**，2015.09～2019.06
 
-Elit mollit ipsum fugiat enim labore et non. Amet nulla cupidatat esse est qui magna culpa velit magna excepteur proident Lorem aliquip ullamco. Anim culpa sit cillum enim consectetur aliqua id Lorem aute id id laborum. Sit nostrud ea anim et deserunt cillum sint culpa laboris. Nisi magna amet minim esse dolore. Do officia ipsum duis exercitation incididunt irure pariatur.
+### 工作经历
 
-#### Software Engineer | Aug 2018 - Oct 2022
+---
+- **氦三科技有限公司，Golang 开发工程师，2022.04～2023.02**
+    
+    负责后台架构设计和开发工作，通过 Gin、NestJS 等 Web 服务框架搭建后端服务，并负责框架搭建部署、基础组件封装等工作。
+    
+- **明源云客，基础架构组，Golang 开发工程师，2021.04～2022.02**
+    
+    在基础架构组中负责开发微服务治理平台监控告警模块，实现服务监控告警及链路追踪。
+    
+- **深圳前海大中华商业保理有限公司，Java 技术开发专员，2019.08～2021.03**
+    
+    负责保理系统需求调研及开发工作，从零到一基于 Spring + Vue 及配套的生态组件实现保理融资服务平台的前后端开发以及部署工作。
+    
 
-Elit mollit ipsum fugiat enim labore et non. Amet nulla cupidatat esse est qui magna culpa velit magna excepteur proident Lorem aliquip ullamco. Anim culpa sit cillum enim consectetur aliqua id Lorem aute id id laborum. Sit nostrud ea anim et deserunt cillum sint culpa laboris. Nisi magna amet minim esse dolore. Do officia ipsum duis exercitation incididunt irure pariatur.
+### 项目经历
 
-### [Pied Piper](http://piedpiper.com/)
+---
 
-#### CEO/President | Dec 2013 - Dec 2014
-
-Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.
-
-- Build an algorithm for artist to detect if their music was violating copy right infringement laws
-- Successfully won Techcrunch Disrupt
-- Optimized an algorithm that holds the current world record for Weisman Scores
-
-## Projects
-
-### [Sillicon Valley](<https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)>)
-
-#### Occaecat qui Lorem adipisicing ut sunt aute. | Oct 2014
-
-Nisi sit consectetur consectetur nulla. Nulla nostrud aliqua duis aliquip sunt. Cupidatat commodo cillum dolore nulla veniam enim in enim sint velit proident. Cupidatat laboris exercitation aliquip dolore eu elit. In mollit veniam eiusmod irure anim sit aute eu magna cillum. Sint aute irure laboris aute officia in velit in irure deserunt. Incididunt mollit mollit pariatur laborum laboris mollit ad enim ipsum deserunt. Ad tempor nulla occaecat consequat dolor nulla
-
-#### Video Compression for 3D Media
-
-#### Founder | Oct 2014
-
-Innovative middle-out compression algorithm that changes the way we store data.
-
-## Languages
-
-| English        |
-| -------------- |
-| Native speaker |
-
-## Education
-
-### University of Oklahoma
-
-#### Bachelor, Information Technology | Jun 2011 - Jan 2014
+- **Forkmain 云原生开发平台，氦三科技有限公司**
+    
+    技术栈：*Golang、Gin、GORM、PostgreSQL、K8s、React*
+    
+    该平台服务于云原生开发团队及相关开发者，用户可以通过该平台在集群中进行全链路的项目开发部署工作，并通过配套的 IDE 插件实现代码分支管理、项目环境搭建、远程开发和服务监控等工作。无需在本地搭建复杂的云原生开发环境，便可实现快速开发云原生项目需求。
+    
+    通过对接 GitHub、ArgoCD 以及使用 K8s 相关 API 实现应用从代码管理到环境部署开发全链路业务。
+    
+    该平台后端为 Gin + GORM 实现的单体 Web 服务，为前端提供对应的 RESTful 接口调用。
+    
+    **主要职责：**
+    
+    - 使用 Gin + GORM 搭建后端单体 Web 服务框架
+    - 封装登录鉴权、日志、配置文件等基础组件
+    - 对接三方服务/组件：GitHub、ArgoCD、K8s Client-go
+    - 实现服务环境部署、远程开发、服务状态及日志查看功能
+- **贾维斯（微服务治理平台），明源云客**
+    
+    技术栈：*Golang、React、MySQL、K8s、Prometheus、Thanos*
+    
+    该平台定位于全链路的微服务治理平台，开发、测试以及运维可以通过该平台快速操作集群中部署的各项服务，并提供相应的服务监控告警、日志聚合、网关和任务调度功能。
+    
+    该平台后端使用公司内部封装的 Golang 微服务框架实现，前端通过 BFF 层进行服务调用。
+    
+    **主要职责：**
+    
+    - 服务监控告警管理：告警规则、告警通知。
+    - 配合运维对接不同集群环境的 Promethus 以及相关规则资源，并对外提供规则的管理接口。
+    - 负责错误日志聚合方案调研开发工作。
+- **大中华保理系统，深圳前海大中华商业保理有限公司**
+    
+    技术栈：*Java、Spring Boot、Vue、Mybatis、MySQL*
+    
+    大中华保理系统面向客户是酒店、商超供应链，为供应商提供融资服务。其主要业务是以应收账款为核心的融资服务，根据供应商提供的发票单据在系统上进行审核并进行相应的放款和结算，围绕该核心业务该系统相应的拓展出风控、票据查验、合同签署等一系列电子化的服务，方便供应商在网页和手机端进行操作。
+    
+    该系统为前后端分离开发，后端主要技术为 Spring Boot，前端主要技术为 Vue。具体业务模块如下：供应商进件模块、项目授信模块、融资模块、放款模块、结算模块、报表、定时任务、aglie 工作流
+    
+    **工作职责：**
+    
+    - 独立负责整体线上环境、测试环境的搭建工作
+    - 独立开发保理系统 H5 项目
+    - 参与保理系统业务重构、核心业务代码重写
+    - 对接通联支付、交通银行银企直联、E签宝电子签章、金蝶税控发票验证
+    - 协助项目经理梳理业务逻辑，项目内所有核心业务流程都由我作为主力开发
